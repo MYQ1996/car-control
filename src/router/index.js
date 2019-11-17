@@ -4,17 +4,17 @@ Vue.use(VueRouter)
 
 export default new VueRouter({
   routes: [
-    // {
-    //   path: '/',
-    //   name: 'HelloWorld',
-    //   component: () =>
-    //     import( /* webpackChunkName: "page" */ '@/page/index'),
-    // },
     {
       path: '/',
+      name: 'Home',
+      component: () =>
+        import( /* webpackChunkName: "page" */ '@/page/home/index'),
+    },
+    {
+      path: '/carDetails',
       name: 'carDetails',
       component: () =>
-        import( /* webpackChunkName: "page" */ '@/page/car-details'),
+        import( /* webpackChunkName: "page" */ '@/page/car-details/index'),
     }
   ]
 })

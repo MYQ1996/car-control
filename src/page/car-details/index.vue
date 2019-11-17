@@ -78,7 +78,9 @@
 </template>
 
 <script>
-import {Card,Range,XHeader} from 'vux'
+import Card from 'vux/src/components/card'
+import XHeader from 'vux/src/components/x-header'
+import Range from 'vux/src/components/range'
 export default {
   components: {
     Card,
@@ -180,10 +182,7 @@ export default {
       console.log('====================================');
     },
     clickBack(){
-      console.log('====================================');
-      console.log(1);
-      console.log('====================================');
-      // this.$route.path({name: '/'})
+       this.$router.push({ path: "/" });
     }
   }
 }
