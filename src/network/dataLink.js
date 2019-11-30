@@ -15,7 +15,7 @@ function dataLinkPostJson(url, val) {
     }
     
     $.ajax({
-      type: 'POST',
+      type: 'get',
       data: val,
       dataType: 'json',
       url: `${httpUrl}${url}`,
