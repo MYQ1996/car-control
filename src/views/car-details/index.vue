@@ -92,10 +92,10 @@ export default {
   data() {
     this.chartSettings = {
       dataName: {
-        速度: ""
+        "速度": ""
       },
       seriesMap: {
-        速度: {
+        "速度": {
           min: 0,
           max: 100,
           splitNumber: 10,
