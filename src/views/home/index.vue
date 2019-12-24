@@ -318,6 +318,7 @@ export default {
      this.ecgPost();
     },
     clearStop() {
+      this.page = 1;
       this.timeState = false;
       this.timeIcon=require(`../images/start.png`)
       clearInterval(this.timeTask);
