@@ -75,7 +75,7 @@
             <span>{{carInfo['PM2.5']}}</span>
             <br />PM2.5
           </div>
-          <div>
+          <div class="vux-1px-r">
             <span>{{carInfo['PM1.0']}}</span>
             <br />PM1.0
           </div>
